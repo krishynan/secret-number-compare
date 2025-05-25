@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secret Number Compare</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Secret Number Compare</h1>
+    <form id="number-form" autocomplete="off">
+      <div>
+        <label for="player1">Player 1: Enter your secret number</label><br>
+        <input type="password" id="player1" name="player1" autocomplete="off" required>
+      </div>
+      <div>
+        <label for="player2">Player 2: Enter your secret number</label><br>
+        <input type="password" id="player2" name="player2" autocomplete="off" required>
+      </div>
+      <button type="submit">Compare</button>
+    </form>
+    <div id="result-section" style="display:none;">
+      <h2 id="result-message"></h2>
+      <button id="restart-btn">Start Over</button>
+    </div>
+  </div>
+</body>
+</html>
