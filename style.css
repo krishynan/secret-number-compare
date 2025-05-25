@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+.container {
+  background: #fff;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd;
+  text-align: center;
+}
+input, button {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  width: 70%;
+  font-size: 1em;
+}
+input[type="password"] {
+  width: 90%;
+}
+button {
+  width: 40%;
+  cursor: pointer;
+}
+#result-message {
+  font-size: 1.4em;
+  color: #333;
+}
